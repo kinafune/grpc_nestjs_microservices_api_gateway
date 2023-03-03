@@ -14,7 +14,8 @@ import { AuthService } from './auth.service';
         options: {
           url: '0.0.0.0:50051',
           package: AUTH_PACKAGE_NAME,
-          protoPath: 'node_modules/grpc_nestjs_microservices_proto/proto/auth.proto',
+          protoPath:
+            'node_modules/grpc_nestjs_microservices_proto/proto/auth.proto',
         },
       },
     ]),

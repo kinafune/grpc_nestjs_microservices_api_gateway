@@ -12,7 +12,8 @@ import { OrderController } from './order.controller';
         options: {
           url: '0.0.0.0:50052',
           package: ORDER_PACKAGE_NAME,
-          protoPath: 'node_modules/grpc_nestjs_microservices_proto/proto/order.proto',
+          protoPath:
+            'node_modules/grpc_nestjs_microservices_proto/proto/order.proto',
         },
       },
     ]),
